@@ -753,7 +753,7 @@ img {
     right: -.5rem;
 }
 
-.swiper-container-horizontal>.swiper.pagination-bullets {
+.swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -2.5rem;
 }
 
@@ -1185,13 +1185,14 @@ img {
 
     /* For large devices*/
     @media screen and (min-width: 1024px) {
+
         .header,
         .main,
         .footer__container {
             padding: 0;
         }
 
-        .home__blob{
+        .home__blob {
             width: 320px;
         }
 
@@ -1219,7 +1220,7 @@ img {
             right: -3.5rem;
         }
 
-        .swiper-container-horizontal > .swiper-pagination-bullet {
+        .swiper-container-horizontal>.swiper-pagination-bullet {
             bottom: -4.5rem;
         }
 
